@@ -1,4 +1,8 @@
-repo_build_status
+Github Repo Build Status
 =================
 
-Node solution for getting a Github repository build status using Octonode
+This is a node solution for getting a Github repository build status using the Octonode package
+
+Switch out your github token for authentication, and your own repository name. 
+
+IMPORTANT: you must have pull rights to the repository, and it must have CI incorporated
