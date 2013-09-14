@@ -1,0 +1,8 @@
+{
+  "name": "Repo Build Status",
+  "version": "0.0.1",
+  "description": "Find a repository build status via the Github API",
+  "main": "index.js",
+  "author": "Sara Chipps",
+  "license": "BSD"
+}
