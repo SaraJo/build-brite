@@ -1,8 +1,10 @@
 {
-  "name": "Repo Build Status",
+  "name": "Build-Brite",
   "version": "0.0.1",
-  "description": "Find a repository build status via the Github API",
+  "description": "light up build indicator",
+  "repository": "https://github.com/sarajo/build-brite",
   "main": "index.js",
   "author": "Sara Chipps",
+  "dependencies" : { "octonode" : "0.3.5" , "johnny-five" : "0.7.3"},
   "license": "BSD"
 }
