@@ -1,7 +1,7 @@
 Build Brite
 =================
 
-Build Brite  is an arduino hack built on top of my repo build status code. It uses a tri-color LED and an Arduino to create a physical indicator that shines green when your project on GitHub is building, red when it is not, and blue when it is pending. You can use this to monitor a shared repository among a team so you don't have to stay right on top of emails to monitor for problems.  
+Build Brite  is an arduino hack built on top of my [repo build status](https://github.com/SaraJo/repo_build_status "repo build status") code. It uses a tri-color LED and an Arduino to create a physical indicator that shines green when your project on GitHub is building, red when it is not, and blue when it is pending. You can use this to monitor a shared repository among a team so you don't have to stay right on top of emails to monitor for problems.  
 
 
 ##Dependencies
