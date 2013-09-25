@@ -17,15 +17,21 @@ var lights = function(status){
 
 //create two instances of LEDs and toggle	
 var red = new j5.Led({pin : 9});
-var green = new j5.Led({pin : 10})
-if(status == 'success'){
+var green = new j5.Led({pin : 10});
+var blue = new j5.Led({pin: 11});
 
-	green.on();
-	red.off();
-}
-else{	
-	red.on();
-	green.off();
+if(status == 'success'){
+  green.on();
+  red.off();
+  blue.off();
+} else if(status == 'pending') {
+  red.off();
+  green.off();
+  blue.on();
+} else {
+  red.on();
+  green.off();
+  blue.off();
 }
 
 }
