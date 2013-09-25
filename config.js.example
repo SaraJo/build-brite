@@ -1,0 +1,6 @@
+// Get an API token at https://github.com/settings/tokens/new
+exports.apiToken = 'f10e13f1ebceb869012ad1f0e7213db59eb40b3e';
+
+// Repo is in the format 'username/repo'
+// It must be a repository where you have pull rights (or be public) and it needs to have CI incorporated.
+exports.repo = 'travis-ci/travis-ci'
