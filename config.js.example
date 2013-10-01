@@ -4,3 +4,6 @@ exports.apiToken = 'f10e13f1ebceb869012ad1f0e7213db59eb40b3e';
 // Repo is in the format 'username/repo'
 // It must be a repository where you have pull rights (or be public) and it needs to have CI incorporated.
 exports.repo = 'travis-ci/travis-ci'
+
+// Try changing to "common-anode" if using a common-anode tri-color LED (if the colors look wrong)
+exports.ledType = "common-cathode";
